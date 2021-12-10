@@ -9,7 +9,7 @@
 ##################################################################################################################*/
 
 /*
- Fonction permettant de normaliser un vecteur 
+ Fonction permettant de calculer la norme d'un vecteur  
  *@param taille_vecteur : la taille du vecteur à normaliser
  *@param vecteur : le vecteur à normaliser
 */
