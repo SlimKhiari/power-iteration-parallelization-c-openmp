@@ -144,7 +144,7 @@ void methode_puissances(float **matrice_A, int nbr_colonnes_A, int nbr_lignes_A,
 	float vecteur_z2_normalise;
 	float *vecteur_y1 = (float*) malloc(sizeof(float)*taille_vecteur_initial);
 	float c;
-	float *resultat_soustraction = (float*) malloc(sizeof(float)*taille_vecteur_initial);
+	float *resultat_soustraction;
 	
 	#pragma omp parallel for private(i) shared(vecteur_q,vecteur_initial,vecteur_q2,vecteur_initial_normalise) schedule(dynamic,1)
 	for(i=0; i<taille_vecteur_initial; i++)
