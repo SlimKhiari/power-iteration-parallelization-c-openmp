@@ -51,7 +51,6 @@ float * multiplication_matricielle(float **matrice, float *vecteur, int lignes_m
 		}
 	}
 	return resultat;
-	free(resultat);
 }
 
 /*
@@ -92,7 +91,6 @@ float * multiplication_vecteur_par_variable(float *vecteur, float variable, int 
 	}
 	
 	return resultat;
-	free(resultat);
 }
 
 /*
@@ -113,11 +111,10 @@ float * soustration_vecteurs(float *vecteurUn, float *vecteurDeux, int taille)
 	}
 	
 	return resultat;
-	free(resultat);
 }
 
 /*##################################################################################################################
-	Fonction principale du projet ; la méthode des puissances 
+	Fonction principale du projet - la méthode des puissances 
 ##################################################################################################################*/
 
 /*
