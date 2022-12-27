@@ -1,3 +1,3 @@
-Il s'agit d'une implémentation de la méthode des puissances en langage C en utilisant la parallélisation (openMP).
+It is an implementation of the power method in C language using parallelization (openMP).
 
-Commande linux pour compiler : gcc methode_puissance.c -fopenmp -o methode_puissance -std=c99 -lm
+Linux command for compiler: gcc methode_puissance.c -fopenmp -o methode_puissance -std=c99 -lm
